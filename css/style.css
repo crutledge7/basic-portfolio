@@ -51,7 +51,7 @@ h4{
     left: 15px;
     
    -webkit-animation-duration: 1.5s !important;
-   -webkit-animation-delay: 4.5s;
+   -webkit-animation-delay: 5s;
    -webkit-animation-iteration-count:1;
 }
 .git-more{
@@ -63,7 +63,7 @@ h4{
     right: 15px;
     
    -webkit-animation-duration: 1.5s !important;
-   -webkit-animation-delay: 4.5s;
+   -webkit-animation-delay: 5s;
    -webkit-animation-iteration-count:1;
 }
 blockquote{
