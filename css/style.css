@@ -41,6 +41,10 @@ h4{
 
 }
 .social{font-size: 18px;}
+.latest{color: grey;
+-webkit-animation-duration: 1.5s !important;
+   -webkit-animation-delay: 5s;
+   -webkit-animation-iteration-count:1;}
 
 .link-more{
     color: white;
@@ -51,7 +55,7 @@ h4{
     left: 15px;
     
    -webkit-animation-duration: 1.5s !important;
-   -webkit-animation-delay: 5s;
+   -webkit-animation-delay: 6s;
    -webkit-animation-iteration-count:1;
 }
 .git-more{
@@ -63,7 +67,7 @@ h4{
     right: 15px;
     
    -webkit-animation-duration: 1.5s !important;
-   -webkit-animation-delay: 5s;
+   -webkit-animation-delay: 6s;
    -webkit-animation-iteration-count:1;
 }
 blockquote{
@@ -95,7 +99,7 @@ blockquote{
         text-align: center;
         color: #ffffff;
         -webkit-animation-duration: 1.5s !important;
-        -webkit-animation-delay: 5s;
+        -webkit-animation-delay: 6s;
         -webkit-animation-iteration-count:1;
         
     }
@@ -110,7 +114,7 @@ blockquote{
         text-align: center;
         color: #ffffff;
         -webkit-animation-duration: 1.5s !important;
-        -webkit-animation-delay: 5s;
+        -webkit-animation-delay: 6s;
         -webkit-animation-iteration-count:1;
         
     }
