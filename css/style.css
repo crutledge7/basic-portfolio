@@ -40,11 +40,11 @@ h4{
   -webkit-animation-iteration-count:1;
 
 }
-.social{font-size: 18px;}
+
 .latest{color: white;
     margin-top: 20px;
 -webkit-animation-duration: 1.5s !important;
-   -webkit-animation-delay: 5s;
+   -webkit-animation-delay: 4s;
    -webkit-animation-iteration-count:1;}
 
 .link-more{
@@ -74,7 +74,7 @@ h4{
 blockquote{
      padding-top: 20px;
   -webkit-animation-duration: 2s !important;
-  -webkit-animation-delay: 4s;
+  -webkit-animation-delay: 3s;
   -webkit-animation-iteration-count:1;
 }
 .mb-0{
@@ -92,30 +92,44 @@ blockquote{
   
     .fa-linkedin{
         background: #0073b1 !important;
-        width: 50%;
+       left: 0;
         position: fixed;
         bottom: 0;
-        left: 0;
-        padding: 15px;
+        width: 33.333%;
+        padding: 20px;
         text-align: center;
         color: #ffffff;
         -webkit-animation-duration: 1.5s !important;
-        -webkit-animation-delay: 6s;
+        -webkit-animation-delay: 5s;
         -webkit-animation-iteration-count:1;
         
     }
  
     .fa-github{
         background: #2b3137 !important;
-        width: 50%;
         position: fixed;
+        right:0;
         bottom: 0;
-        right: 0;
-        padding: 15px;
+        width: 33.333%;
+        padding: 20px;
         text-align: center;
         color: #ffffff;
         -webkit-animation-duration: 1.5s !important;
-        -webkit-animation-delay: 6s;
+        -webkit-animation-delay: 5s;
+        -webkit-animation-iteration-count:1;
+        
+    }
+  .fa-envelope{
+        background: #ffffff !important;
+        position: fixed;
+        bottom: 0;
+        left: 33.333%;
+        width: 33.333%;
+        padding: 20px;
+        text-align: center;
+        color: #000;
+        -webkit-animation-duration: 1.5s !important;
+        -webkit-animation-delay: 5s;
         -webkit-animation-iteration-count:1;
         
     }
@@ -154,14 +168,14 @@ h1{
   font-size: 60px;
   
 }
-    .social{font-size: 16px;}
+   
 
 h3{
   font-size: 30px;
  
 }
    .latest{
-    margin-top: 40px;
+    margin-top: 30px;
 }
     .fa-linkedin{
     
@@ -176,6 +190,9 @@ h3{
         padding: 15px;
         
         
+    }
+    .fa-envelope{
+        padding: 15px;
     }
     
 
@@ -227,7 +244,7 @@ blockquote{
 }
 .blockquote-footer{
     color: #484848;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 }
