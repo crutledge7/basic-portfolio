@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BAM</title>
+   <link rel="stylesheet" href="css/intro.css">
+</head>
+<body>
+<svg viewBox="0 0 600 400">
+
+	<polygon class="polymorph" points="600,400 561.7,400 0,400 0,0 600,0 	"/>
+</svg>
+<script src="js/anime.min.js"></script>
+
+    <script>
+    anime({
+  targets: '.polymorph',
+  points: [
+    
+    { value: '600,400 561.7,400 561,38 0,0 600,0 ' },
+  ],
+  easing: 'easeOutQuad',
+  duration: 2000,
+  loop: false
+});
+    </script>
+
+</body>
+</html>

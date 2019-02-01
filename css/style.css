@@ -86,50 +86,70 @@ blockquote{
     font-family: Raleway, sans-serif;
 }
 .header{
-    margin-top: 120px;
-    padding: 35px;
+    margin-top: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 100px;
 }
   
     .fa-linkedin{
         background: #0073b1 !important;
-       left: 0;
+        left: 75%;
         position: fixed;
         bottom: 0;
-        width: 33.333%;
+        width: 25%;
         padding: 20px;
         text-align: center;
         color: #ffffff;
-        -webkit-animation-duration: 1.5s !important;
-        -webkit-animation-delay: 5s;
+        -webkit-animation-duration: 1.2s !important;
+        -webkit-animation-delay: 8s;
         -webkit-animation-iteration-count:1;
+        z-index: 999999;
         
     }
  
     .fa-github{
         background: #2b3137 !important;
         position: fixed;
-        right:0;
+        left: 50%;
         bottom: 0;
-        width: 33.333%;
+        width: 25%;
         padding: 20px;
         text-align: center;
         color: #ffffff;
-        -webkit-animation-duration: 1.5s !important;
-        -webkit-animation-delay: 5s;
+        -webkit-animation-duration: 1.2s !important;
+        -webkit-animation-delay: 7s;
         -webkit-animation-iteration-count:1;
         
     }
+.fa-instagram{
+        background-image: linear-gradient(to right, #f9ed32 , #ee2a7b);
+        left: 0;
+        position: fixed;
+        bottom: 0;
+        width: 25%;
+        padding: 20px;
+        text-align: center;
+        color: #ffffff;
+        -webkit-animation-duration: 1.2s !important;
+        -webkit-animation-delay: 5s;
+        -webkit-animation-iteration-count:1;
+        z-index: 999999;
+  
+        
+    }
+ 
   .fa-envelope{
         background: #ffffff !important;
         position: fixed;
         bottom: 0;
-        left: 33.333%;
-        width: 33.333%;
+        left: 25%;
+        width: 25%;
         padding: 20px;
         text-align: center;
         color: #000;
-        -webkit-animation-duration: 1.5s !important;
-        -webkit-animation-delay: 5s;
+        -webkit-animation-duration: 1.2s !important;
+        -webkit-animation-delay: 6s;
         -webkit-animation-iteration-count:1;
         
     }
@@ -141,7 +161,7 @@ h1{
 }
 
 h3{
-  font-size: 40px;
+  font-size: 45px;
  
 }
 
@@ -177,22 +197,11 @@ h3{
    .latest{
     margin-top: 30px;
 }
-    .fa-linkedin{
+    .fa-linkedin,.fa-github,.fa-envelope,.fa-instagram {
     
         padding: 15px;
         
         
-    }
-    
-    
-    .fa-github{
-    
-        padding: 15px;
-        
-        
-    }
-    .fa-envelope{
-        padding: 15px;
     }
     
 
