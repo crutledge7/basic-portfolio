@@ -46,7 +46,7 @@
         .underline-cray {
             background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
             background-repeat: no-repeat;
-            background-size: 100% 0.3em;
+            background-size: 100% 0.25em;
             background-position: 0 90%;
             padding: 2px;
             transition: background-size 0.25s ease-in;
@@ -87,10 +87,10 @@
 
 
             <blockquote class="blockquote animated fadeInLeft">
-                <p class="mb-0">“There are two ways of spreading light: to be the candle or the mirror that reflects it.”</p>
-                <footer class="blockquote-footer"><cite title="Source Title">Edith Wharton</cite></footer>
+                <p class="mb-0">“If I quit now, I will soon be back to where I started. And when I started I was desperately wishing to be where I am now.”</p>
+               <!-- <footer class="blockquote-footer"><cite title="Source Title">Edith Wharton</cite></footer>-->
             </blockquote>
-            <p class="latest animated fadeInLeft">02.1.19 - Currently running with the <a href="https://www.100daysofcode.com/" target="_blank"><span class="underline-cray">#100daysofcode</span></a> challenge. Follow on social to stay updated with the journey...<br><br>Just code for 1 hour a day (hopefully outside of your work and share on social utilizing <b>#100daysofcode</b>).<br><br> Goodluck! <i class="fa fa-smile-o" aria-hidden="true"></i>
+            <p class="latest animated fadeInLeft">02.1.19 - Running with the <a href="https://www.100daysofcode.com/" target="_blank"><span class="underline-cray">#100daysofcode</span></a> challenge. Follow on social to stay updated with the journey...<br><br>Just code for 1 hour a day (hopefully outside of your work and share on social utilizing <b>#100daysofcode</b>).<br><br> Goodluck! <i class="fa fa-smile-o" aria-hidden="true"></i>
  
             </p>
 
@@ -157,17 +157,25 @@
         anime({
             targets: '.polymorph',
             points: [
-
-                {
-                    value: '600,400 571.7,300 500,48 0,0 600,0 '
+                 {
+                    value: '600,0 301,0 0,0 0,0 600,0  '
                 },
                 {
-                    value: '600,400 600,400 600,45 0,0 600,0 '
+                    value: '600,25 300,25 0,26 0,0 600,0 '
                 },
-                //{ value: '600,400 600,400 593,25 0,0 600,0  '},
+                {
+                    value: '600,0 300,13 0,26 0,0 600,0 '
+                },
+                //{
+                  //  value: '600,400 571.7,300 500,48 0,0 600,0 '
+                //},
+                //{
+                //    value: '600,400 600,400 600,25 0,0 600,0 '
+                //},
+                
             ],
-            easing: 'easeInOutSine',
-            duration: 2700,
+            easing: 'easeInSine',
+            duration: 2800,
             loop: false
         });
     </script>
