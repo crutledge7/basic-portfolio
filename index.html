@@ -87,10 +87,10 @@
 
 
             <blockquote class="blockquote animated fadeInLeft">
-                <p class="mb-0">“If I quit now, I will soon be back to where I started. And when I started I was desperately wishing to be where I am now.”</p>
-               <!-- <footer class="blockquote-footer"><cite title="Source Title">Edith Wharton</cite></footer>-->
+                <p class="mb-0">“It's not the daily increase but daily decrease. Hack away at the unessential.”</p>
+                <footer class="blockquote-footer"><cite title="Source Title">Bruce Lee</cite></footer>
             </blockquote>
-            <p class="latest animated fadeInLeft">02.1.19 - Running with the <a href="https://www.100daysofcode.com/" target="_blank"><span class="underline-cray">#100daysofcode</span></a> challenge. Follow on social to stay updated with the journey...<br><br>Just code for 1 hour a day (hopefully outside of your work and share on social utilizing <b>#100daysofcode</b>).<br><br> Goodluck! <i class="fa fa-smile-o" aria-hidden="true"></i>
+            <p class="latest animated fadeInLeft"><span id="month"></span>.<span id="day"></span>.<span id="year"></span> - Running with the <a href="https://www.100daysofcode.com/" target="_blank"><span class="underline-cray">#100daysofcode</span></a> challenge. Follow on social to stay updated with the journey...<br><br>Just code for 1 hour a day (hopefully outside of your work and share on social utilizing <b>#100daysofcode</b>).<br><br> Goodluck! <i class="fa fa-smile-o" aria-hidden="true"></i>
  
             </p>
 
@@ -152,6 +152,14 @@
             $('[data-toggle="tooltip"]').tooltip();
         });
     </script>
+     <script>
+var d = new Date();
+document.getElementById("year").innerHTML = d.getFullYear();
+var d = new Date();
+document.getElementById("day").innerHTML = d.getDate()
+  var d = new Date();
+document.getElementById("month").innerHTML = d.getDay();
+</script>
 
     <script>
         anime({
